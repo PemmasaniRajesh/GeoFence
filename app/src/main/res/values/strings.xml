@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GeoFence</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <!-- Error strings -->
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">
+        You have provided too many PendingIntents to the addGeofences() call
+    </string>
+    <string name="unknown_geofence_error">
+        Unknown error: the Geofence service is not available now
+    </string>
+    <string name="location_required_error">Location services must be enabled for this game.</string>
+    <string name="channel_name">GeoFence Channel</string>
+    <string name="notification_channel_description">GeoFence Events Notifications</string>
+
+</resources>
